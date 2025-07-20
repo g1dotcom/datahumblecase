@@ -1,14 +1,14 @@
 <template>
   <div class="flex h-screen bg-gray-50">
-    <div class="w-64 bg-white shadow-lg flex-shrink-0">
+    <div class="w-64 bg-white shadow-lg flex-shrink-0 flex flex-col">
       <div class="flex items-center h-16 px-4 border-b border-gray-200">
         <div class="flex items-center">
-          <div class="text-blue-600 text-xl font-bold">Dash</div>
+          <div class="text-blue-600 text-xl font-bold">DataHumble</div>
         </div>
       </div>
       
-      <nav class="mt-8">
-        <div class="px-4">
+      <nav class="mt-8 flex flex-col flex-1">
+        <div class="px-4 flex-1">
           <div class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
             OVERVIEW
           </div>
@@ -32,7 +32,7 @@
           </ul>
         </div>
         
-        <div class="px-4 mt-8">
+        <div class="px-4 mb-8 mt-auto">
           <div class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
             SETTINGS
           </div>
@@ -90,7 +90,7 @@
                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" 
                 alt="Russell"
               >
-              <span class="text-sm font-medium text-gray-900">Russell</span>
+              <span class="text-sm font-medium text-gray-900">Gökhan</span>
             </div>
           </div>
         </div>
