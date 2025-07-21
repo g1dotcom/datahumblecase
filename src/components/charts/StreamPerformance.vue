@@ -10,7 +10,7 @@
       <div class="bg-white rounded-lg p-6">
         <h4 class="text-lg font-semibold text-gray-900 mb-4">Stream Stats</h4>
 
-        <div class="grid grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div>
             <p class="text-sm text-gray-500 mb-1">Hours Watched</p>
             <div class="flex items-baseline space-x-2">
